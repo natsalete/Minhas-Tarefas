@@ -12,7 +12,7 @@ const initialState: TarefasState = {
             id: 1,
             descricao: 'Estudar JavaScript revendo o exercício do módulo 7',
             prioridade: enums.Prioridade.NORMAL,
-            status: enums.Status.PENDENTE,
+            status: enums.Status.CONCLUIDA,
             titulo: 'Estudar TypeScript'
         },
         {
@@ -38,10 +38,19 @@ const tarefasSlice = createSlice({
     reducers: {
         remover: (state, action: PayloadAction<number>) => {
             state.itens = state.itens.filter(tarefa => tarefa.id !== action.payload)
+        },
+        editar: (state, action: PayloadAction<Tarefa>) => {
+            const indexDaTarefa = state.itens.findIndex(
+                t => t.id === action.payload.id
+            )
+
+            if(indexDaTarefa >= 0) {
+                state.itens[indexDaTarefa] = action.payload
+            }
         }
     }
 })
 
-export const { remover } = tarefasSlice.actions
+export const { remover, editar } = tarefasSlice.actions
 
 export default tarefasSlice.reducer
