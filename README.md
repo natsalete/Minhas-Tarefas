@@ -2,7 +2,7 @@
 
 Este repositório possui o código-fonte da aplicação web construída em React para uma lista de tarefas.
 
-Deploy link: minhas-tarefas-five.vercel.app
+Deploy link: https://minhas-tarefas-five.vercel.app/
 
 ## Características
 
