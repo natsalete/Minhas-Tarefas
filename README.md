@@ -2,6 +2,8 @@
 
 Este repositório possui o código-fonte da aplicação web construída em React para uma lista de tarefas.
 
+Deploy link: minhas-tarefas-five.vercel.app
+
 ## Características
 
 * Adicionar uma tarefa;
@@ -20,7 +22,7 @@ Este repositório possui o código-fonte da aplicação web construída em React
 
   ## Instalação
 
-1. Certifique-se de ter Node.js e npm instalados em seu sistema. Caso contrário, você pode baixá-lo e instalá-lo aqui .
+1. Certifique-se de ter Node.js e npm instalados em seu sistema .
 2. Clone o repositório em sua máquina local usando o seguinte comando:
    ```bash
    git clone https://github.com/natsalete/Minhas-Tarefas.git
@@ -37,4 +39,4 @@ Este repositório possui o código-fonte da aplicação web construída em React
    ```bash
    npm start
 
-6. Abra seu navegador: navegue até http://localhost:3000/
+6. Abra seu navegador: Navegue até http://localhost:3002/
