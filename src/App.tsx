@@ -1,22 +1,22 @@
-import { Provider } from 'react-redux'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom' 
+import { Provider } from 'react-redux';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
-import EstiloGlobal, { Container } from './styles'
+import EstiloGlobal, { Container } from './styles';
 
-import store from './store'
-import Home from './pages/Home'
-import Cadastro from './pages/Home/Cadastro'
+import store from './store';
+import Home from './pages/Home';
+import Cadastro from './pages/Home/Cadastro';
 
 const rotas = createBrowserRouter([
   {
     path: '/',
-    element: <Home />
+    element: <Home />,
   },
   {
     path: '/novo',
-    element: <Cadastro />
-  }
-])
+    element: <Cadastro />,
+  },
+]);
 
 function App() {
   return (
@@ -26,7 +26,7 @@ function App() {
         <RouterProvider router={rotas} />
       </Container>
     </Provider>
-  )
+  );
 }
 
-export default App
+export default App;

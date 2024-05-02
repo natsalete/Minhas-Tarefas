@@ -1,13 +1,13 @@
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 
-import style from  'styled-components'
-import variaveis from '../../styles/variaveis'
+import style from 'styled-components';
+import variaveis from '../../styles/variaveis';
 
 export const Circulo = style(Link)`
     height: 64px;
     width: 64px;
     background-color: ${variaveis.verde};
-    color: #FFF;
+    color: #fff;
     position: fixed;
     bottom: 40px;
     right: 40px;
@@ -17,4 +17,4 @@ export const Circulo = style(Link)`
     align-items: center;
     font-size: 40px;
     text-decoration: none;
-`
+`;

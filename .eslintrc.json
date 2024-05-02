@@ -7,6 +7,8 @@
       "eslint:recommended",
       "plugin:react/recommended",
       "plugin:@typescript-eslint/recommended",
+      "react-app",
+      "react-app/jest",
       "plugin:prettier/recommended"
     ],
     "overrides": [],
@@ -18,18 +20,21 @@
     "plugins": [
       "react",
       "@typescript-eslint",
-      "react-hooks"
+      "react-hooks",
+      "prettier"
     ],
     "rules": {
       "react-hooks/rules-of-hooks": "error",
       "react-hooks/exhaustive-deps": "warn",
       "react/prop-types": "off",
       "react/react-in-jsx-scope": "off",
-      "@typescript-eslint/explicit-module-boundary-types": "off"
+      "@typescript-eslint/explicit-module-boundary-types": "off",
+      "prettier/prettier": "error"
     },
     "settings": {
       "react": {
         "version": "detect"
       }
     }
+    
   }
