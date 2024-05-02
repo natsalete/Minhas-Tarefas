@@ -1,5 +1,5 @@
-import { createSlice, PayloadAction } from "@reduxjs/toolkit";
-import Tarefa from "../../models/Tarefa";
+import { createSlice, PayloadAction } from '@reduxjs/toolkit'
+import Tarefa from '../../models/Tarefa'
 import * as enums from '../../utils/enums/Tarefa'
 
 type TarefasState = {
@@ -67,7 +67,7 @@ const tarefasSlice = createSlice({
             }
         },
         alteraStatus: (state, action: PayloadAction<{ id: number; finalizado: boolean}>) => {
-            const indexDaTarefa = state.itens.findIndex(
+            const indexDaTarefa = state.itens.findIndex( 
                 t => t.id === action.payload.id
             )
 

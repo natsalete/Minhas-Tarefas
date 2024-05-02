@@ -1,4 +1,4 @@
-import sytled, { styled } from "styled-components";
+import { styled } from 'styled-components';
 
 
 type Props = {
