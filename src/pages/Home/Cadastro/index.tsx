@@ -3,8 +3,7 @@ import BarraLateral from "../../../containers/BarraLateral"
 
 const Cadastro = () => (
     <>
-    <BarraLateral />
-    
+    <BarraLateral mostrarFiltros={false} />
     <Formulario />
     </>
 )
