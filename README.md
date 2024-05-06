@@ -4,6 +4,8 @@ Este repositório possui o código-fonte da aplicação web construída em React
 
 Deploy link: https://minhas-tarefas-five.vercel.app/
 
+https://github.com/natsalete/Minhas-Tarefas/assets/135389319/6c2cdaf7-28d3-4e8e-b5d9-2fb526ac1bef
+
 ## Características
 
 * Adicionar uma tarefa;
